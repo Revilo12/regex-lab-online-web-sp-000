@@ -21,6 +21,7 @@ end
 
 def words_five_letters_long(text)
   text.scan(/\b\w{5}\b/)
+  #\b is for a word boundary
 end
 
 words_string = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
