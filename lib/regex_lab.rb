@@ -27,6 +27,7 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   #We will need to make sure that the first word is capitalized and then do a plus w and then make sure that it end in \W 
   !!text.match(/^[A-Z].+\W$/)
+  #The upcarrot makes sure that it is at the start the .+ allows for anythingto come after that. the \W checks to see if it ends in a special character and the $ makes sure that it is at the end
 end
 
 def valid_phone_number?(phone)
