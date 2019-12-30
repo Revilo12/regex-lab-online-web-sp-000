@@ -20,7 +20,7 @@ This is going to need to fors look for un at the beginning so have an upcarrot a
 end
 
 def words_five_letters_long(text)
-  text.scan(/\w{5}/)
+  text.scan(/\s\w{5}\s/)
 end
 
 words_string = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
