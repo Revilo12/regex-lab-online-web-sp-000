@@ -20,7 +20,7 @@ This is going to need to fors look for un at the beginning so have an upcarrot a
 end
 
 def words_five_letters_long(text)
-
+  text.scan(/\w{5}/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
