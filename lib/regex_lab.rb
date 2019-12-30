@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  !! word.match(/[aeiou]\w+$/) #a vowel plus any combination of characters
+  !! word.match(/^[aeiou]\w+$/) #a vowel plus any combination of characters
 end
 
 puts starts_with_a_vowel?("Cat")
