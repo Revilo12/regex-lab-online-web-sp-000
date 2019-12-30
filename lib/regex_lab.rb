@@ -31,5 +31,6 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  #This is going to need to che
+  #This is going to need to check that there are three digits in a row, then three,then four with any characters in between
+  !!phone.match(/.\d{3}.\d{3}.\d{4}.$)
 end
