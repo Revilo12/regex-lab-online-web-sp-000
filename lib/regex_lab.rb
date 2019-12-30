@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  !!word.match(/[aeiou]./) #a vowel plus any combination of characters
+  !!word.match(/[aeiou]$/) #a vowel plus any combination of characters
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
