@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  !! word.match(/^[aeiou]\w+/) 
+  !! word.match(/^[aeiouAEIOU]\w+/) 
 =begin
   Theory
     !! turns it into a boolean value (could alternatively use match?)
