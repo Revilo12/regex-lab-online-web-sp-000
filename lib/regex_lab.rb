@@ -24,11 +24,9 @@ def words_five_letters_long(text)
   #\b is for a word boundary
 end
 
-words_string = "extreme briny crepe parking snaps grouping snafu round dog be fork spoon"
-print words_five_letters_long(words_string)
-
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+  #We will need to make sure that the first word is capitalized and then do a plus w and then make sure that it end in \W 
+  !!text.match()
 end
 
 def valid_phone_number?(phone)
