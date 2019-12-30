@@ -5,7 +5,7 @@ def starts_with_a_vowel?(word)
     !! turns it into a boolean value (could alternatively use match?)
     The word is being acted on with match which returns the first thing that works from the String
     The upcarrot tells it that it has to be at the start 
-    The vowels in the brackets say that the next thing has to be a vowel.
+    The vowels in the brackets say that the next thing has to be a vowel. It has to accept upper and lower case
     The lower case w means that it can be any character that isn't specilal. 
     The plus means that any number of these can occur
 =end
@@ -13,7 +13,8 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-
+=begin
+This is going to need to fors look for un at the beginning so have an upcarrot and two brackets and then look for the ing at the end
 end
 
 def words_five_letters_long(text)
