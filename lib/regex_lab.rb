@@ -32,5 +32,5 @@ end
 
 def valid_phone_number?(phone)
   #This is going to need to check that there are three digits in a row, then three,then four with any characters in between
-  !!phone.match(/.\d{3}.\d{3}.\d{4}.$)
+  !!phone.match(/.\d{3}.\d{3}.\d{4}.$/)
 end
