@@ -1,5 +1,12 @@
 def starts_with_a_vowel?(word)
-  !! word.match(/^[aeiou]\w+$/) #a vowel plus any combination of characters
+  !! word.match(/^[aeiou]\w+/) 
+  #Theory
+    !! turns it into a boolean value (could alternatively use match?)
+    The word is being acted on with match which returns the first thing that works from the String
+    The upcarrot tells it that it has to be at the start 
+    The vowels in the brackets say that the next thing has to be a vowel.
+    The lower case w means that it can be any character that isn't specilal. 
+    
 end
 
 puts starts_with_a_vowel?("Cat")
